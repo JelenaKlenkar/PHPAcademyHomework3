@@ -29,6 +29,10 @@
 
 
 <?php
+ if(isset($_POST['color'])){
+     $color=$_POST['color'];
+     print_r ("My favorite color is ".$color);
+ }
 
 ?>
 </form>

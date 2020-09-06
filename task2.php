@@ -15,8 +15,8 @@
     <button class="success button">Submit</button>
 </form>
 <?php
-if (isset($_POST[number])) {
-    $number = $_POST[number];
+if (isset($_POST['number'])) {
+    $number = $_POST['number'];
 
     function calculateFactorial($number)
     {
